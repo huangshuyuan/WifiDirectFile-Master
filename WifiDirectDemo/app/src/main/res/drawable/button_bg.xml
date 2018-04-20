@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_focused="true">
+
+        <shape android:shape="rectangle">
+            <padding android:bottom="5dp"
+                     android:top="5dp"/>
+            <corners android:bottomLeftRadius="10dip"
+                     android:bottomRightRadius="10dip"
+                     android:topLeftRadius="10dip"
+                     android:topRightRadius="10dip"/>
+            <solid android:color="@color/button_focus"/>
+        </shape>
+    </item>
+    <item android:state_focused="false">
+
+        <shape android:shape="rectangle">
+            <padding android:bottom="5dp"
+                     android:top="5dp"/>
+            <corners android:bottomLeftRadius="10dip"
+                     android:bottomRightRadius="10dip"
+                     android:topLeftRadius="10dip"
+                     android:topRightRadius="10dip"/>
+            <solid android:color="@color/button_color"/>
+        </shape>
+    </item>
+    <item android:state_selected="true">
+        <shape android:shape="rectangle">
+            <padding android:bottom="5dp"
+                     android:top="5dp"/>
+            <corners android:bottomLeftRadius="10dip"
+                     android:bottomRightRadius="10dip"
+                     android:topLeftRadius="10dip"
+                     android:topRightRadius="10dip"/>
+            <solid android:color="@color/button_focus"/>
+        </shape>
+    </item>
+    <item android:state_selected="false">
+        <shape android:shape="rectangle">
+            <corners android:bottomLeftRadius="10dip"
+                     android:bottomRightRadius="10dip"
+                     android:topLeftRadius="10dip"
+                     android:topRightRadius="10dip"/>
+            <solid android:color="@color/button_color"/>
+        </shape>
+    </item>
+
+</selector>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">WifiDirectDemo</string>
+    <string name="scan">客户端-扫描</string>
+</resources>
